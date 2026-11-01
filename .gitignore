@@ -1,4 +1,22 @@
-*.bak
+# Secrets
 *.key
 *.pem
 *.env
+.env
+
+# Backups
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
